@@ -1,9 +1,14 @@
 from sqlalchemy import create_engine, Column, String, Float, DateTime, Integer
 from sqlalchemy.orm import declarative_base, sessionmaker
 from datetime import datetime
+import os
 
 Base = declarative_base()
-engine = create_engine("sqlite:///data/query_logs.db")
+
+# Works on both local and Streamlit Cloud
+DB_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'query_logs.db')
+DB_PATH = os.path.normpath(DB_PATH)
+engine = create_engine(f"sqlite:///{DB_PATH}")
 
 class QueryLog(Base):
     __tablename__ = "query_logs"
