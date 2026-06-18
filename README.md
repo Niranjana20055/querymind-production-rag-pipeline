@@ -11,7 +11,7 @@
 
 ### Upload any PDF. Ask anything. Get grounded answers — with every response scored for faithfulness and relevance in real time.
 
-**[🚀 Live Demo]([your-streamlit-url-here](https://niranjana-querymind.streamlit.app/))** · **[📽️ Demo Video](your-video-link-here)**
+**[🚀 Live Demo](https://niranjana-querymind.streamlit.app/)** · **[📽️ Demo Video](your-video-link-here)**
 
 </div>
 
