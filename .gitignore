@@ -1,0 +1,23 @@
+# Environment
+.env
+venv/
+
+# ChromaDB local storage
+data/chroma_db/
+
+# Database logs
+data/query_logs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
